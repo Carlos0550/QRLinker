@@ -1,0 +1,97 @@
+
+.input__container{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top-center;
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+    background: rgba(0, 136, 255, 0.584);
+    box-shadow: 0 8px 32px 0 rgb(58, 66, 180);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+form{
+    background-color: rgba(21, 146, 255, 0.563);
+    width: 60%;
+    height: auto;
+    padding: 1em;
+    border: none;
+    border-radius: 15px;
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    
+}
+.input__label{
+    margin-top: 2em;
+    display: inline-block;
+    font-weight: bold;
+    width: 95%;
+    color: white;
+    
+
+}
+input{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 100%;
+    height: 4vh;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    transition: all 0.2s ease;
+    margin-bottom: 1em;
+}
+input:hover{
+    transform: scale(1.03);
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(251, 85, 85);
+    padding: 1em;
+    width: 40%;
+    font-size: 1.2em;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color:green;
+    color:white;
+    transform:scale(1.02)
+}
+.QR__container {
+    margin: 0 auto;
+    margin-top: 1em;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 0; 
+    overflow: hidden; 
+    transition: height 10s ease; 
+    animation-duration: 1ms;
+}
+
+.QR__container.show {
+    margin: 0.5em;
+    height: 60%; /* Muestra el contenido cambiando la altura */
+}
+h1{
+    color: white;
+}
+
